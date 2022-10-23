@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- link css with html in the folder -->
+    <link rel="stylesheet" href="style.css"> 
+    <!-- link javascript with html in the folder -->
+    <script src="index.js"></script>
+    <!-- link in terms of animation of side navigation, inspried webiste url: https://levelup.gitconnected.com/create-an-animated-sidebar-using-html-css-and-javascript-758a7070a9da-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- link google fonts with html -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <!-- link in terms of animation of page jumping, inspried website url: https://github.com/cferdinandi/smooth-scroll  -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+
+    <!-- create title for this website -->
+<title>Impacts of bushfire</title> 
+
+</head>
+<body>
+
+    <!-- create the section for "Home Page" -->
+<section id="homePage">
+    <!-- link with logo image in the folder -->
+    <img src="img/logo.jpeg" class="logo">
+    
+    <!-- create home page text using class -->
+    <div class="homePage-text">
+        <h1>
+            What are the impacts of bushfire?
+        </h1>
+        <br>
+        <br>
+        <br>
+        <p>
+            It is generally known that bushires of high intensity have had a considerable negative impact on Australian communities and the environment. Additionally, bushfires have a detrimental effect on property, animal populations, water supplies, and other elements. After that, each point will be discussed in terms of community, mankind, etc.
+        </p>
+    </div>
+</section>
+
+
+
+
+<!-- Inspriation for upper website -->
+<div id="mySidebar" class="sidebar">
+    <nav>
+        <ul>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
+            <li><a href="#">Home</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="#mankind">Mankind</a></li>
+            <li><a href="#forest">Forest</a></li>
+            <li><a href="#animals">Animals</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div id="main">
+    <button class="openbtn" onclick="openSidebar()">&#9776;
+        
+    </button>
+  
+    
+</div>
+
+
+<!-- --community-- -->
+<section id="community">
+    <div class="title-text">
+        <h2>COMMUNITY</h2>
+            <br>
+    </div>
+
+    <!-- Part for paragraph -->
+    <div class="comm-para">
+        <div class="para">
+            <p>Bushfires wreak enormous damage when there are active fire seasons. For instance, the insurance industry alone lost $257 million in the 2003 Canberra fires. The true cost of the fires would be much higher, taking into account lost production and the price of fire suppression methods. The effects of these catastrophes start to become clearer when you factor in the fatalities, psychological stress, loss of expensive personal goods, and destruction of scientific equipment and data at the Mount Stromlo Observatory.</p>
+        </div>
+    <!-- Part for image in paragraph-->
+        <div class="comm-img">
+        <img src="img/bushfire1.jpeg" class="community">
+        </div>
+    </div>
+
+</section>
+
+<!-- Part for border and break between the sections -->
+<br>
+<hr class="hr">
+
+<!-- --mankind-- -->
+<section id="mankind">
+    <div class="title-text">
+        <h2>MANKIND</h2>
+            <br>
+    </div>
+
+    <div class="comm-para">
+        <div class="para">
+            <p>Firefighting is an inherently dangerous profession. Although skilled firefighters confront very high risks in individually risky situations, good training can reduce the risk.
+                Volunteers who act in a spirit of community are typically the ones who fight rural fires. Therefore, they shouldn't be subjected to the significant risks involved in putting out fires with heavy fuels. Therefore, the only workable solution is to reduce gasoline use.</p>
+        </div>
+
+        <div class="comm-img">
+        <img src="img/firefighter.webp" class="community">
+        </div>
+    </div>
+
+</section>
+
+<br>
+<br>
+<hr class="hr">
+
+<!-- --forest-- -->
+<section id="forest">
+    <div class="title-text">
+        <h2>FOREST</h2>
+            <br>
+    </div>
+
+    <div class="comm-para">
+        <div class="para">
+            <p>These destructive bushfires caused significant damage to the woodlands that they burned. The majority of the native forests were not "destroyed" by the wildfires, despite what is frequently reported in the media. Forest cover is not lost in wildfires, despite the possibility of some trees dying. However, a significant forest fire could result in a sizable percentage of total trees lost.</p>
+        </div>
+
+        <div class="comm-img">
+        <img src="img/forest.jpeg" class="community">
+        </div>
+    </div>
+
+</section>
+
+<br>
+<br>
+<hr class="hr">
+
+<!-- --animials-- -->
+<section id="animals">
+    <div class="title-text">
+        <h2>ANIMALS</h2>
+            <br>
+    </div>
+
+    <div class="comm-para">
+        <div class="para">
+            <p>Numerous indigenous animals and insects perished as a result of the strong bushfires due to burning or asphyxiation caused by smoke. After the bushfires, any animals that had managed to find shelter in logs or holes in the ground typically vanished soon because they had no longer had any protection from predators. In contrast to low-intensity fuel reduction burns, when any animal losses are soon made up for by the nearby unburned forest, intense bushfires cause substantial animal loss. It is clear that a rare and endangered species could go extinct completely.</p>
+        </div>
+
+        <div class="comm-img">
+        <img src="img/animal.jpeg" class="community">
+        </div>
+    </div>
+
+</section>
+
+<br>
+<br>
+<hr class="hr">
+
+</body>
+</html>
+
+

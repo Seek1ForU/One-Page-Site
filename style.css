@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* This part is mainly the style of home page including blurred background */
+#homePage{
+    background: linear-gradient(rgba(0,0,0,0.5), #CD5C5C),
+    url(img/bushfire.jpeg);  
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo{
+    width: 140px;
+    position: absolute;
+    mix-blend-mode: multiply;
+    top:1%;
+    left: 45%;
+}
+
+.homePage-text{
+    color: white;
+    padding-top: 200px;
+    text-align: center;
+    
+}
+
+.homePage-text h1{
+    font-size: 100px;
+}
+
+.homePage-text p{
+    font-size: 20px;
+    line-height: 1.8;
+    font-style: italic;
+}
+
+
+/* style for side navigation */
+.sidebar {
+    background-color: #CD5C5C;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidebar a {
+    padding:10px 10px 20px 32px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+
+/* make animation when touch the text in the side navigation */
+.sidebar nav ul li:hover a{
+    padding-left: 50px;
+}
+
+.sidebar nav ul li a:hover{
+    color:black;
+}
+
+/* Style of close bottom */
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* style of open bottom */
+.openbtn {
+    width: 40px;
+    height: 40px;
+    background-color: #CD5C5C;
+    text-align: center;
+    position:fixed;
+    font-size:30px;
+    left:30px;
+    top: 20px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+#community{
+    width:100%;
+    padding: 100px 0;
+}
+
+#mankind{
+    width:100%;
+    padding: 70px 0;
+}
+
+#forest{
+    width:100%;
+    padding: 60px 0;
+}
+
+#animals{
+    width:100%;
+    padding: 60px 0;
+}
+
+
+
+
+
+.title-text{
+    text-align:center;
+    padding-bottom: 70px;
+    color:#CD5C5C;
+    font-size: 25px;
+    
+
+}
+
+/* the underlines below each section title text */
+.title-text h2:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 15%;
+    padding-top: 20px;
+    border-bottom: 4px solid #CD5C5C; 
+}
+
+
+/* style for every paragraphs in each sections */
+
+.comm-para{
+    width:80%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.para{
+    flex-basis: 50%;
+    line-height: 1.8;
+    font-family: 'Open Sans', sans-serif;
+
+   
+}
+
+.comm-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+
+.comm-img img{
+    width:80%;
+    border-radius: 10px;
+}
+
+
+/* style of the borders between each sections */
+
+.hr{
+    height: 15px;
+        border: 0;
+        box-shadow: inset 0 15px 15px -15px #CD5C5C;
+
+}
